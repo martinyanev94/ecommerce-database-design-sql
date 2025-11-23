@@ -1,0 +1,2 @@
+MATCH (a:User {name: 'Alice'})-[:FRIENDS_WITH]->(friend)-[:FRIENDS_WITH]->(foaf)
+RETURN DISTINCT foaf.name
