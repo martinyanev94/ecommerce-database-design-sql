@@ -1,0 +1,2 @@
+MATCH (alice:User {name: 'Alice'}), (post:Post {id: 1})
+CREATE (alice)-[:LIKED]->(post)
