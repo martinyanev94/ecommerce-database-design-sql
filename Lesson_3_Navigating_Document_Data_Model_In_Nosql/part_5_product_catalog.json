@@ -1,0 +1,16 @@
+{
+    "product_id": "p001",
+    "name": "Wireless Headphones",
+    "brand": "AudioTech",
+    "specifications": {
+        "battery_life": "20 hours",
+        "warranty": "2 years"
+    }
+}
+{
+    "product_id": "p002",
+    "name": "Cotton T-shirt",
+    "size": "L",
+    "color": "Blue",
+    "brand": "FashionBrand"
+}
