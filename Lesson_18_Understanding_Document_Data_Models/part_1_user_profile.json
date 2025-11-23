@@ -1,0 +1,19 @@
+{
+    "user_id": "user123",
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "addresses": [
+        {
+            "type": "home",
+            "line1": "123 Elm Street",
+            "city": "Springfield",
+            "zip": "12345"
+        },
+        {
+            "type": "work",
+            "line1": "456 Oak Avenue",
+            "city": "Springfield",
+            "zip": "12345"
+        }
+    ]
+}
