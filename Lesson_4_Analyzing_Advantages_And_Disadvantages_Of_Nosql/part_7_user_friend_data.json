@@ -1,0 +1,8 @@
+{
+    "user_id": "001",
+    "name": "Alice",
+    "friends": [
+        { "user_id": "002", "name": "Bob" },
+        { "user_id": "003", "name": "Charlie" }
+    ]
+}
