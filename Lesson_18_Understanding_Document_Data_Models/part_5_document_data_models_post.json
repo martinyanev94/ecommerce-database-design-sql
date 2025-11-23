@@ -1,0 +1,17 @@
+{
+    "post_id": "post123",
+    "title": "Understanding Document Data Models",
+    "content": "In this blog post, we will explore the benefits of using document data models...",
+    "comments": [
+        {
+            "user_id": "user456",
+            "comment": "Great article!",
+            "timestamp": "2021-10-01T12:34:56"
+        },
+        {
+            "user_id": "user789",
+            "comment": "Very informative. Thanks for sharing!",
+            "timestamp": "2021-10-02T14:20:30"
+        }
+    ]
+}
