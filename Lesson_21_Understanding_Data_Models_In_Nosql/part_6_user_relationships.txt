@@ -1,0 +1,5 @@
+CREATE (alice:User {name: 'Alice', age: 28}),
+       (bob:User {name: 'Bob', age: 32}),
+       (alice)-[:FRIENDS_WITH]->(bob);
+MATCH (alice:User {name: 'Alice'})-[:FRIENDS_WITH]->(friends)
+RETURN friends;
