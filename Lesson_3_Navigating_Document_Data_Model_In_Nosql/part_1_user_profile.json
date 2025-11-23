@@ -1,0 +1,19 @@
+{
+    "user_id": "123",
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "preferences": {
+        "newsletter": true,
+        "notifications": false
+    },
+    "addresses": [
+        {
+            "type": "home",
+            "address": "123 Main St, Springfield, IL"
+        },
+        {
+            "type": "work",
+            "address": "456 Corporation St, Springfield, IL"
+        }
+    ]
+}
