@@ -1,0 +1,2 @@
+CONSISTENCY QUORUM;
+INSERT INTO accounts (account_id, balance) VALUES (1, 500);
