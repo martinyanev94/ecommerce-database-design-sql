@@ -1,0 +1,10 @@
+Row Key: user_101
+  Column Family: Profile
+    - username: johndoe
+    - email: johndoe@example.com
+
+Row Key: user_102
+  Column Family: Profile
+    - username: janesmith
+    - email: janesmith@example.com
+    - website: janesmith.com
