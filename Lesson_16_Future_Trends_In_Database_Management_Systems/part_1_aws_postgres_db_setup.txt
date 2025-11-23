@@ -1,0 +1,16 @@
+provider "aws" {
+  region = "us-west-2"
+}
+
+resource "aws_db_instance" "my_postgres_db" {
+  allocated_storage    = 20
+  engine             = "postgres"
+  engine_version     = "12.4"
+  instance_class     = "db.t2.micro"
+  name               = "mypostgresdb"
+  username           = "dbuser"
+  password           = "password"
+  db_subnet_group_name = aws_db_subnet_group.my_db_subnet_group.name
+  vpc_security_group_ids = [aws_security_group.my_db_security_group.id]
+  skip_final_snapshot = true
+}
