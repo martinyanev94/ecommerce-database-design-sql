@@ -1,0 +1,2 @@
+MATCH (user:User {name: 'Alice'})-[:FRIENDS_WITH]->(friend)-[:PURCHASED]->(product)
+RETURN DISTINCT product.name
