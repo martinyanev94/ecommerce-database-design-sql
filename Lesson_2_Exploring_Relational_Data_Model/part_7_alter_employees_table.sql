@@ -1,0 +1,4 @@
+ALTER TABLE employees
+ALTER COLUMN name SET NOT NULL,
+ALTER COLUMN salary SET NOT NULL,
+ADD CONSTRAINT unique_employee_name UNIQUE (name);
