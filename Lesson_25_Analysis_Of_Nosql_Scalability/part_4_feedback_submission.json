@@ -1,0 +1,8 @@
+{
+  "user_id": 12345,
+  "comment": "This is a great product!",
+  "media": {
+    "type": "image",
+    "url": "http://example.com/image.jpg"
+  }
+}
