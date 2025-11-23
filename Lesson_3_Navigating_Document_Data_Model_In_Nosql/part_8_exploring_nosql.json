@@ -1,0 +1,16 @@
+{
+    "post_id": "001",
+    "title": "Exploring NoSQL",
+    "comments": [
+        {
+            "user": "Alice",
+            "comment": "Great post!",
+            "date": "2023-01-01"
+        },
+        {
+            "user": "Bob",
+            "comment": "Very insightful!",
+            "date": "2023-01-02"
+        }
+    ]
+}
