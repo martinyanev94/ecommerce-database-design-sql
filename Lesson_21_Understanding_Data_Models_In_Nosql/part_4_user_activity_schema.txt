@@ -1,0 +1,7 @@
+CREATE TABLE user_activity (
+    user_id UUID,
+    activity_date DATE,
+    activity_type TEXT,
+    PRIMARY KEY (user_id, activity_date)
+);
+ALTER TABLE user_activity ADD device_type TEXT;
