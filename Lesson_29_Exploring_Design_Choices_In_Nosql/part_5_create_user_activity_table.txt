@@ -1,0 +1,6 @@
+CREATE TABLE user_activity (
+    user_id UUID PRIMARY KEY,
+    activity_time TIMESTAMP,
+    activity_description TEXT
+) WITH COMPACT STORAGE
+AND read_repair_chance = 0.1;
